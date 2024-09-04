@@ -1,0 +1,52 @@
+{
+    "livros": [
+      {
+        "id": 1,
+        "titulo": "Dom Quixote",
+        "autor": "Miguel de Cervantes",
+        "anoPublicacao": 1605,
+        "genero": "Romance",
+        "editora": "Penguin Classics"
+      },
+      {
+        "id": 2,
+        "titulo": "O Pequeno Príncipe",
+        "autor": "Antoine de Saint-Exupéry",
+        "anoPublicacao": 1943,
+        "genero": "Fábula",
+        "editora": "HarperCollins"
+      },
+      {
+        "id": 3,
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "anoPublicacao": 1949,
+        "genero": "Distopia",
+        "editora": "Secker & Warburg"
+      }
+    ],
+    "autores": [
+      {
+        "id": 1,
+        "nome": "Miguel de Cervantes",
+        "nacionalidade": "Espanhol",
+        "dataNascimento": "1547-09-29",
+        "dataFalecimento": "1616-04-22"
+      },
+      {
+        "id": 2,
+        "nome": "Antoine de Saint-Exupéry",
+        "nacionalidade": "Francês",
+        "dataNascimento": "1900-06-29",
+        "dataFalecimento": "1944-07-31"
+      },
+      {
+        "id": 3,
+        "nome": "George Orwell",
+        "nacionalidade": "Britânico",
+        "dataNascimento": "1903-06-25",
+        "dataFalecimento": "1950-01-21"
+      }
+    ]
+  }
+  
