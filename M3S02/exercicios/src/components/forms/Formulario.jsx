@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 
 const Formulario = () => {
-    const { register, handleSubmit, formState: {errors} } = useForm()
+    const { register, handleSubmit, reset, formState: {errors} } = useForm()
     const [formEnviado, setFormEnviado] = useState(false)
 
     const onSubmit = (data) => {
@@ -10,7 +10,8 @@ const Formulario = () => {
         setFormEnviado(true)
         setTimeout(()=>{
             setFormEnviado(false)
-        }, 5000)        
+        }, 5000)
+        reset()
     }
 
     return (
